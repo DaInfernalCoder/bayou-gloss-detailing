@@ -17,6 +17,10 @@ Build and launch a polished Houston car detailing website, connect the approved 
 - Registration settings: one year, high privacy with consent, auto-renew disabled
 - Purchase approval: explicitly received from Sumit
 - Permanent repository: `/Users/sumit/Documents/websites & apps/bayou-gloss-detailing`
+- GitHub repository: https://github.com/DaInfernalCoder/bayou-gloss-detailing
+- Vercel project: https://vercel.com/dainfernalcoders-projects/bayou-gloss-detailing
+- Production fallback: https://bayou-gloss-detailing.vercel.app
+- GMB asset pack: `/Users/sumit/Documents/gmb/Bayou Gloss Car Detailing Houston`
 
 ## Decisions and truth constraints
 
@@ -46,10 +50,10 @@ Build and launch a polished Houston car detailing website, connect the approved 
 - [x] Phone is consistently `+1 832-358-3394`
 - [x] Licensed photography and source records are included
 - [x] Static preflight and desktop/mobile browser QA pass
-- [ ] Clean `main` commit is pushed to a dedicated GitHub repository
-- [ ] GitHub is connected to a production Vercel project
-- [ ] Apex and `www` are attached and registrar DNS is changed
-- [ ] GMB description and one-logo/four-cover/four-business-photo pack are validated
+- [x] Clean `main` commit is pushed to a dedicated GitHub repository
+- [x] GitHub is connected to a production Vercel project
+- [x] Apex and `www` are attached and registrar DNS is changed
+- [x] GMB description and one-logo/four-cover/four-business-photo pack are validated
 
 ## Task list
 
@@ -62,20 +66,26 @@ Build and launch a polished Houston car detailing website, connect the approved 
 - [x] Source and document licensed imagery
 - [x] Build the site and brand assets
 - [x] Run preflight, browser QA, and copy audit
-- [ ] Commit and push the GitHub repository
-- [ ] Deploy to Vercel and attach hosts
-- [ ] Change Spaceship nameservers and check propagation once
-- [ ] Create and validate the GMB asset pack
-- [ ] Finalize this operating record
+- [x] Commit and push the GitHub repository
+- [x] Deploy to Vercel and attach hosts
+- [x] Change Spaceship nameservers and check propagation once
+- [x] Create and validate the GMB asset pack
+- [x] Finalize this operating record
 
 ## Current state
 
-`bayougloss.shop` is registered. Spaceship reports lifecycle `registered`, contact verification `success`, high privacy, and auto-renew disabled. The permanent dependency-free site is complete with eight documented Pexels images, seven paired call/booking paths, one H1, no public form, and no email route. Static preflight passes. Browser QA passes at 1440px, 1024px, and 390px with complete images, no overflow, a readable independent header, working mobile navigation and FAQ controls, and no console errors.
+`bayougloss.shop` is registered. Spaceship reports lifecycle `registered`, high privacy, auto-renew disabled, and custom nameservers `ns1.vercel-dns.com` and `ns2.vercel-dns.com`. The one immediate public check still reported the temporary registry nameservers, so custom-domain DNS and HTTPS are propagation pending.
+
+The permanent dependency-free site is complete with eight documented Pexels images, seven paired call/booking paths, one H1, no public form, and no email route. Static preflight passes. Browser QA passes at 1440px, 1024px, and 390px with complete images, no overflow, a readable independent header, working mobile navigation and FAQ controls, and no console errors.
+
+GitHub `main` is public and connected to Vercel. Production deployment `dpl_CSYksfhqXUK36Ue5pqA8Rjpuujpv` is `READY`, the stable fallback returns HTTP 200 with the expected Bayou Gloss title, and both `bayougloss.shop` and `www.bayougloss.shop` are attached.
+
+The final GMB pack contains exactly one 1200-by-1200 PNG logo, four unique 1600-by-900 cover JPGs, four unique business JPGs, one consolidated `GMB-INFO.txt`, and complete source/license notes. The Google Business description is 726 characters and includes `Car Detailing Houston` in all five sentences.
 
 ## Blocker
 
-No current blocker.
+No implementation blocker. Public custom-domain delegation and HTTPS issuance are still propagating, which is expected after the fresh nameserver change and must not keep this workflow open.
 
 ## Exact next action
 
-Initialize `main`, commit the verified site, create and push the public GitHub repository, then deploy it through Vercel.
+On a later explicit check, verify authoritative nameservers plus apex and `www` HTTPS. Do not poll or wait during this run.
