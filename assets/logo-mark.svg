@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Bayou Gloss logo</title>
+  <desc id="desc">Three gloss contour lines cross a blue automotive finish tile.</desc>
+  <rect width="96" height="96" rx="12" fill="#102738"/>
+  <path d="M-9 92C10 52 36 36 65 32C78 30 89 22 105 4" fill="none" stroke="#F3B61F" stroke-width="7" stroke-linecap="round"/>
+  <path d="M-2 102C20 65 43 51 70 47C84 45 95 38 109 21" fill="none" stroke="#90C3B5" stroke-width="7" stroke-linecap="round"/>
+  <path d="M14 107C35 78 55 66 79 62C91 60 102 53 114 39" fill="none" stroke="#F9FAF7" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="25" cy="25" r="5" fill="#F3B61F"/>
+</svg>
