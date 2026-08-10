@@ -18,19 +18,63 @@
   <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Martian+Mono:wght@400;600&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "AutoWash",
-    "name": "Bayou Gloss Car Detailing Houston",
-    "url": "https://bayougloss.shop/",
-    "telephone": "+1-832-358-3394",
-    "description": "Interior and exterior car detailing in Houston, Texas.",
-    "areaServed": {
-      "@type": "City",
-      "name": "Houston"
-    }
-  }
-  </script>
+      {
+        "@context": "https://schema.org",
+        "@type": "AutoWash",
+        "name": "Bayou Gloss Car Detailing Houston",
+        "url": "https://bayougloss.shop/",
+        "telephone": "+1 832-358-3394",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1514 Vickery Dr",
+          "addressLocality": "Sugar Land",
+          "addressRegion": "TX",
+          "postalCode": "77498",
+          "addressCountry": "US"
+        },
+        "description": "Interior and exterior car detailing in Houston, Texas.",
+        "areaServed": {
+          "@type": "City",
+          "name": "Houston"
+        },
+        "priceRange": "$200-$250",
+        "makesOffer": [
+          {
+            "@type": "Offer",
+            "name": "Basic Detail",
+            "price": "200",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Basic Detail"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Premium Detail",
+            "price": "250",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Premium Detail"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Exterior Wash",
+            "price": "50",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Exterior Wash"
+            }
+          }
+        ]
+      }
+    </script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>

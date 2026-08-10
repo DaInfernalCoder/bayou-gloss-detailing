@@ -9,6 +9,7 @@ Build and launch a polished Houston car detailing website, connect the approved 
 - Canonical name: Bayou Gloss Car Detailing Houston
 - Business type: car detailing
 - Primary market: Houston, Texas
+- Street address: 1514 Vickery Dr, Sugar Land, TX 77498
 - Phone: +1 832-358-3394
 - Appointment link: https://cal.com/sumitdatta/auto-detail-service
 - Domain: `bayougloss.shop`
