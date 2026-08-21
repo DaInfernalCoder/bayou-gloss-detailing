@@ -8,12 +8,16 @@ from playwright.sync_api import sync_playwright
 
 URL = "http://127.0.0.1:4173"
 SCREENSHOTS = Path(__file__).resolve().parent.parent / "screenshots"
+SYSTEM_CHROME = Path("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
 
 
 def main() -> None:
     SCREENSHOTS.mkdir(exist_ok=True)
     with sync_playwright() as playwright:
-        browser = playwright.chromium.launch()
+        launch_options = (
+            {"executable_path": str(SYSTEM_CHROME)} if SYSTEM_CHROME.is_file() else {}
+        )
+        browser = playwright.chromium.launch(**launch_options)
 
         for width, height, label in (
             (1440, 1000, "desktop"),
