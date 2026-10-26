@@ -3,9 +3,9 @@
 > Appointment-based mobile car detailing in Sugar Land, Texas.
 
 ## Primary pages
-- [Homepage](https://bayougloss.shop/): Business, service, pricing, process, and contact information.
-- [Services](https://bayougloss.shop/#services): Interior, exterior, and complete vehicle detailing options.
-- [Local service information](https://bayougloss.shop/#local-detailing): How mobile detailing works in Sugar Land.
+- [Homepage](https://sugarlandcardetailingco.shop/): Business, service, pricing, process, and contact information.
+- [Services](https://sugarlandcardetailingco.shop/#services): Interior, exterior, and complete vehicle detailing options.
+- [Local service information](https://sugarlandcardetailingco.shop/#local-detailing): How mobile detailing works in Sugar Land.
 
 ## Verified business facts
 - Business name: Bayou Gloss Car Detailing Houston
@@ -17,11 +17,11 @@
 
 <!-- SEO-NEXT:START -->
 ## Expanded pages
-- [Services](https://bayougloss.shop/services/)
-- [Interior Car Detailing](https://bayougloss.shop/services/interior-car-detailing/)
-- [Exterior Car Detailing](https://bayougloss.shop/services/exterior-car-detailing/)
-- [Mobile Car Wash](https://bayougloss.shop/services/mobile-car-wash/)
-- [Headlight Restoration & Polishing](https://bayougloss.shop/services/headlight-restoration/)
-- [About](https://bayougloss.shop/about/)
-- [Contact](https://bayougloss.shop/contact/)
+- [Services](https://sugarlandcardetailingco.shop/services/)
+- [Interior Car Detailing](https://sugarlandcardetailingco.shop/services/interior-car-detailing/)
+- [Exterior Car Detailing](https://sugarlandcardetailingco.shop/services/exterior-car-detailing/)
+- [Mobile Car Wash](https://sugarlandcardetailingco.shop/services/mobile-car-wash/)
+- [Headlight Restoration & Polishing](https://sugarlandcardetailingco.shop/services/headlight-restoration/)
+- [About](https://sugarlandcardetailingco.shop/about/)
+- [Contact](https://sugarlandcardetailingco.shop/contact/)
 <!-- SEO-NEXT:END -->

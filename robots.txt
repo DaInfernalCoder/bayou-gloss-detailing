@@ -13,4 +13,4 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-Sitemap: https://bayougloss.shop/sitemap.xml
+Sitemap: https://sugarlandcardetailingco.shop/sitemap.xml

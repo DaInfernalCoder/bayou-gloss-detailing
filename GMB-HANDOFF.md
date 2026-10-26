@@ -12,7 +12,7 @@ Build and launch a polished Houston car detailing website, connect the approved 
 - Street address: 1514 Vickery Dr, Sugar Land, TX 77498
 - Phone: +1 832-358-3394
 - Appointment link: https://cal.com/sumitdatta/auto-detail-service
-- Domain: `bayougloss.shop`
+- Domain: `sugarlandcardetailingco.shop`
 - Registration date: 2026-07-19
 - Expiration date: 2027-07-19
 - Registration settings: one year, high privacy with consent, auto-renew disabled
@@ -44,7 +44,7 @@ Build and launch a polished Houston car detailing website, connect the approved 
 
 ## Acceptance criteria
 
-- [x] `bayougloss.shop` registered for one year with high privacy and auto-renew off
+- [x] `sugarlandcardetailingco.shop` registered for one year with high privacy and auto-renew off
 - [x] Permanent project exists under `/Users/sumit/Documents/websites & apps/bayou-gloss-detailing`
 - [x] Responsive site includes hero, services, process, observable-workmanship proof, FAQ, and final action
 - [x] Telephone and online appointment actions appear together throughout the site
@@ -75,11 +75,11 @@ Build and launch a polished Houston car detailing website, connect the approved 
 
 ## Current state
 
-`bayougloss.shop` is registered. Spaceship reports lifecycle `registered`, high privacy, auto-renew disabled, and custom nameservers `ns1.vercel-dns.com` and `ns2.vercel-dns.com`. The one immediate public check still reported the temporary registry nameservers, so custom-domain DNS and HTTPS are propagation pending.
+`sugarlandcardetailingco.shop` is registered. Spaceship reports lifecycle `registered`, high privacy, auto-renew disabled, and custom nameservers `ns1.vercel-dns.com` and `ns2.vercel-dns.com`. The one immediate public check still reported the temporary registry nameservers, so custom-domain DNS and HTTPS are propagation pending.
 
 The permanent dependency-free site is complete with eight documented Pexels images, seven paired call/booking paths, one H1, no public form, and no email route. Static preflight passes. Browser QA passes at 1440px, 1024px, and 390px with complete images, no overflow, a readable independent header, working mobile navigation and FAQ controls, and no console errors.
 
-GitHub `main` is public and connected to Vercel. The stable production alias is `READY`, returns HTTP 200 with the expected Bayou Gloss title, and both `bayougloss.shop` and `www.bayougloss.shop` are attached.
+GitHub `main` is public and connected to Vercel. The stable production alias is `READY`, returns HTTP 200 with the expected Bayou Gloss title, and both `sugarlandcardetailingco.shop` and `www.sugarlandcardetailingco.shop` are attached.
 
 The final GMB pack contains exactly one 1200-by-1200 PNG logo, four unique 1600-by-900 cover JPGs, four unique business JPGs, one consolidated `GMB-INFO.txt`, and complete source/license notes. The Google Business description is 726 characters and includes `Car Detailing Houston` in all five sentences.
 
